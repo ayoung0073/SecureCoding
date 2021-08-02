@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sql.JdbcTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-02T11:48:40" hostname="mun-ayeong-ui-MacBookProq.local" time="0.604">
+  <properties/>
+  <testcase name="정상적인_입력_Secure()" classname="sql.JdbcTest" time="0.604"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
