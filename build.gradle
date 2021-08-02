@@ -1,8 +1,9 @@
 plugins {
+    id 'org.springframework.boot' version '2.4.4'
     id 'java'
 }
 
-group 'org.example'
+group 'com.may'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -13,7 +14,17 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
 
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+    testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.5.3'
+
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
     implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.25'
+
+    implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.4'
+
 }
 
 test {
