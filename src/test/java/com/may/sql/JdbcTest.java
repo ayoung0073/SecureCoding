@@ -1,4 +1,4 @@
-package sql;
+package com.may.sql;
 
 import org.junit.jupiter.api.Test;
 
