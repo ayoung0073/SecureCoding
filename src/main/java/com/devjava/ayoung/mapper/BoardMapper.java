@@ -1,6 +1,6 @@
-package com.may.mapper;
+package com.devjava.ayoung.mapper;
 
-import com.may.dto.BoardDto;
+import com.devjava.ayoung.dto.BoardDto;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

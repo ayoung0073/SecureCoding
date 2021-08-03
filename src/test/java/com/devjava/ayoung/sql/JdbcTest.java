@@ -1,4 +1,4 @@
-package com.may.sql;
+package com.devjava.ayoung.sql;
 
 import org.junit.jupiter.api.Test;
 

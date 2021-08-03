@@ -1,6 +1,6 @@
-package com.may.mapper;
+package com.devjava.ayoung.mapper;
 
-import com.may.dto.BoardDto;
+import com.devjava.ayoung.dto.BoardDto;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
